@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://getbootstrap.com/docs/4.0/examples/album/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Envirothon</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="./Album example for Bootstrap_files/album.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SwapGroup</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="allLocation.html">All Items</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="map.html">Map</a>
+              </li>
+            </ul>
+            <div id="account"  class="navbar-collapse collapse w-90 order-3 dual-collapse2">
+              <ul class="navbar-nav ms-auto">
+                <li class = "nav-item">
+                  <a class="nav-link me-2" href="Signin.html">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html">Login</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main role="main">
+
+      <section class="jumbotron text-center" style="background-color: DarkGrey;">
+        <div class="container">
+          <h1 class="jumbotron-heading">SwapGroup</h1>
+          <p class="lead">A market for the local neighborhood, from the local neighborhood. Explore sellers around you, and buy the item of your dreams at a dream price.</p>
+          <p>
+            <a href="Signin.html" class="btn btn-primary my-2">Sign Up</a>
+            <a href="login.html" class="btn btn-light my-2">Login</a>
+          </p>
+        </div>
+      </section>
+
+      <div class="album py-5 bg-secondary">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="tire.JPG">
+                <div class="card-body">
+                  <h5 class="card-text"><strong>Car Tire: $150</strong></h5>
+                  <p>A Bridgestone Potenza PE930i tire in slightly used condition. It has been in storage for a few years, but I will take it to the air pump in a few days.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                      <button type="button" class="btn btn-primary my-2" data-bs-toggle="modal" data-bs-target="#tireModal">View</button>
+
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="tireModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Car Tire</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <p><Strong>Name of Seller: </Strong>John Doe</p>
+                              <p><Strong>Name of Item: </Strong>Bridgestone Tire</p>
+                              <p><Strong>Price: </Strong>$150</p>
+                              <p><Strong>Location: </Strong>1234 Random Street Springfield NJ, 123456</p>
+                              <p><Strong>Time: </Strong>Anytime</p>
+                              <p><Strong>Cell Phone: </Strong>123-456-7890</p>
+                              <p><Strong>Email: </Strong>example@email.com</p>
+                              <p><strong>Description:</strong></p>
+                              <p>A Bridgestone Potenza PE930i tire in slightly used condition. It has been in storage for a few years, but I will take it to the air pump in a few days.</p>
+                              <p><Strong>Picture: </Strong></p>
+                              <img class="card-img-top" src="tire.JPG">
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Contact</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <small class="text-muted my-4">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="box.png">
+                <div class="card-body">
+                  <h5 class="card-text"><strong>Box: $10</strong></h5>
+                  <p>A large box with dimensions 3'x5'x4' made of very sturdy plastic. Price is negotiable. Slightly used, but looks new.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                      <button type="button" class="btn btn-primary my-2" data-bs-toggle="modal" data-bs-target="#boxModal">View</button>
+
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="boxModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Box</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <p><Strong>Name of Seller: </Strong>John Doe</p>
+                              <p><Strong>Name of Item: </Strong>Box</p>
+                              <p><Strong>Price: </Strong>$150</p>
+                              <p><Strong>Location: </Strong>1234 Random Street Springfield NJ, 123456</p>
+                              <p><Strong>Time: </Strong>Anytime</p>
+                              <p><Strong>Cell Phone: </Strong>123-456-7890</p>
+                              <p><Strong>Email: </Strong>example@email.com</p>
+                              <p><strong>Description:</strong></p>
+                              <p>A large box with dimensions 3'x5'x4' made of very sturdy plastic. Price is negotiable. Slightly used, but looks new.</p>
+                              <p><Strong>Picture: </Strong></p>
+                              <img class="card-img-top" src="box.png">
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Contact</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <small class="text-muted my-4">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="chain1.png">
+                <div class="card-body">
+                  <h5 class="card-text"><strong>Chainsaw: $50</strong></h5>
+                  <p>A gas powered chainsaw that is slightly used. Great for trimming or cutting down small trees! Gasoline not included.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                      <button type="button" class="btn btn-primary my-2" data-bs-toggle="modal" data-bs-target="#chainModal">View</button>
+
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="chainModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Chainsaw</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <p><Strong>Name of Seller: </Strong>John Doe</p>
+                              <p><Strong>Name of Item: </Strong>Chainsaw</p>
+                              <p><Strong>Price: </Strong>$150</p>
+                              <p><Strong>Location: </Strong>1234 Random Street Springfield NJ, 123456</p>
+                              <p><Strong>Time: </Strong>Anytime</p>
+                              <p><Strong>Cell Phone: </Strong>123-456-7890</p>
+                              <p><Strong>Email: </Strong>example@email.com</p>
+                              <p><strong>Description:</strong></p>
+                              <p>A gas powered chainsaw that is slightly used. Great for cutting down small trees! Gasoline not included.</p>
+                              <p><Strong>Picture: </Strong></p>
+                              <img class="card-img-top" src="chain1.png">
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Contact</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <small class="text-muted my-4">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="cone1.png">
+                <div class="card-body">
+                  <h5 class="card-text"><strong>Traffic Cone: $15</strong></h5>
+                  <p>A short cone with dimensions 1'x1'x1', perfect for practicing your parallel parking skills. Slightly used, but looks new.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                      <button type="button" class="btn btn-primary my-2" data-bs-toggle="modal" data-bs-target="#trafficModal">View</button>
+
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="trafficModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Traffic Cone</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <p><Strong>Name of Seller: </Strong>John Doe</p>
+                              <p><Strong>Name of Item: </Strong>Traffic Cone</p>
+                              <p><Strong>Price: </Strong>$150</p>
+                              <p><Strong>Location: </Strong>1234 Random Street Springfield NJ, 123456</p>
+                              <p><Strong>Time: </Strong>Anytime</p>
+                              <p><Strong>Cell Phone: </Strong>123-456-7890</p>
+                              <p><Strong>Email: </Strong>example@email.com</p>
+                              <p><strong>Description:</strong></p>
+                              <p>A short cone with dimensions 1'x1'x1', perfect for practicing your parallel parking skills. Slightly used, but looks new.</p>
+                              <p><Strong>Picture: </Strong></p>
+                              <img class="card-img-top" src="cone1.png">
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Contact</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <small class="text-muted my-4">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="mower.png">
+                <div class="card-body">
+                  <h5 class="card-text"><strong>Riding Lawn Mower: $1100</strong></h5>
+                  <p>A John Deere D105 Riding Mower. Is slightly used, but looks brand new. Great for large lawns! Gasoline not included.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                      <button type="button" class="btn btn-primary my-2" data-bs-toggle="modal" data-bs-target="#mowerModal">View</button>
+
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="mowerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Riding Mower</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <p><Strong>Name of Seller: </Strong>John Doe</p>
+                              <p><Strong>Name of Item: </Strong>John Deere D105 Riding Mower</p>
+                              <p><Strong>Price: </Strong>$150</p>
+                              <p><Strong>Location: </Strong>1234 Random Street Springfield NJ, 123456</p>
+                              <p><Strong>Time: </Strong>Anytime</p>
+                              <p><Strong>Cell Phone: </Strong>123-456-7890</p>
+                              <p><Strong>Email: </Strong>example@email.com</p>
+                              <p><strong>Description:</strong></p>
+                              <p>A John Deere D105 Riding Mower. Is slightly used, but looks brand new. Great for large lawns! Gasoline not included.</p>
+                              <p><Strong>Picture: </Strong></p>
+                              <img class="card-img-top" src="mower.png">
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Contact</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <small class="text-muted my-4">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="physics book1.png">
+                <div class="card-body">
+                  <h5 class="card-text"><strong>Physics Textbook: $3</strong></h5>
+                  <p>Fundamentals of Physics Sixth Edition. Great for reviewing AP Physics C: Mechanics as well as AP Physics C: E&M.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                      <button type="button" class="btn btn-primary my-2" data-bs-toggle="modal" data-bs-target="#bookModal">View</button>
+
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="bookModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Physics Book</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <p><Strong>Name of Seller: </Strong>John Doe</p>
+                              <p><Strong>Name of Item: </Strong>Fundamentals of Physics Sixth Edition</p>
+                              <p><Strong>Price: </Strong>$150</p>
+                              <p><Strong>Location: </Strong>1234 Random Street Springfield NJ, 123456</p>
+                              <p><Strong>Time: </Strong>Anytime</p>
+                              <p><Strong>Cell Phone: </Strong>123-456-7890</p>
+                              <p><Strong>Email: </Strong>example@email.com</p>
+                              <p><strong>Description:</strong></p>
+                              <p>Fundamentals of Physics Sixth Edition. Great for reviewing AP Physics C: Mechanics as well as AP Physics C: E&M.</p>
+                              <p><Strong>Picture: </Strong></p>
+                              <img class="card-img-top" src="physics book1.png">
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Contact</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <small class="text-muted my-4">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+    </main>
+
+    <footer class="text-muted bg-dark">
+      <div class="container">
+        <p>By: Livingston High School Envirothon Team</p>
+        <p>Team 3</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+
+<svg xmlns="http://www.w3.org/2000/svg" width="348" height="225" viewBox="0 0 348 225" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="17" style="font-weight:bold;font-size:17pt;font-family:Arial, Helvetica, Open Sans, sans-serif">Thumbnail</text></svg></body></html>
